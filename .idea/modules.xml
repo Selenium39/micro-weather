@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-weather.iml" filepath="$PROJECT_DIR$/micro-weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-city-client/micro-weather-city-client.iml" filepath="$PROJECT_DIR$/micro-weather-city-client/micro-weather-city-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-client/micro-weather-client.iml" filepath="$PROJECT_DIR$/micro-weather-client/micro-weather-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-collection-client/micro-weather-collection-client.iml" filepath="$PROJECT_DIR$/micro-weather-collection-client/micro-weather-collection-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-config-client/micro-weather-config-client.iml" filepath="$PROJECT_DIR$/micro-weather-config-client/micro-weather-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-config-server/micro-weather-config-server.iml" filepath="$PROJECT_DIR$/micro-weather-config-server/micro-weather-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-data-client/micro-weather-data-client.iml" filepath="$PROJECT_DIR$/micro-weather-data-client/micro-weather-data-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-feign-client/micro-weather-feign-client.iml" filepath="$PROJECT_DIR$/micro-weather-feign-client/micro-weather-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-hystrix-client/micro-weather-hystrix-client.iml" filepath="$PROJECT_DIR$/micro-weather-hystrix-client/micro-weather-hystrix-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-report-client/micro-weather-report-client.iml" filepath="$PROJECT_DIR$/micro-weather-report-client/micro-weather-report-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-server/micro-weather-server.iml" filepath="$PROJECT_DIR$/micro-weather-server/micro-weather-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-zuul-client/micro-weather-zuul-client.iml" filepath="$PROJECT_DIR$/micro-weather-zuul-client/micro-weather-zuul-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/single-weather/single-weather.iml" filepath="$PROJECT_DIR$/single-weather/single-weather.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+package com.selenium.microweatherreportclient.vo;
+
+import lombok.Data;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.List;
+
+@Data
+@XmlRootElement(name="citys")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class CityList {
+	@XmlElement(name="city")
+	private List<City> cityList;
+
+}

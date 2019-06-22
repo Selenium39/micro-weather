@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mirco-weather-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-collection-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-city-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-data-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mirco-weather-report-client/pom.xml" />
+        <option value="$PROJECT_DIR$/single-weather/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-zuul-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-report-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/micro-weather-hystrix-client/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

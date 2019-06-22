@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>天气预报</title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h3 th:text="${reportModel.title}">Selenium</h3>
+			&nbsp;&nbsp;
+			<select class="custom-select col-md-1" id="citySelect">
+				<option th:each="city:${reportModel.citys}"
+					th:text="${city.cityName}" th:value="${city.cityName}"
+					th:selected="${reportModel.selected eq city.cityName}"></option>
+			</select>
+		</div>
+		<div class="row">
+			<h1 class="text-success" th:text="${reportModel.report.city}">城市名</h1>
+		</div>
+		<div class="row">
+			<p>
+				当前温度:<span th:text="${reportModel.report.wendu}"></span>
+			</p>
+		</div>
+		<div class="row">
+			<p>
+				温馨提示:<span th:text="${reportModel.report.ganmao}"></span>
+			</p>
+		</div>
+		<div class="row">
+			<div  class="card  border-info" th:each="forecast:${reportModel.report.forecast}">
+				<div class="card-body text-info">
+					<p class="card-text" th:text="${forecast.date}">日期</p>
+					<p class="card-text" th:text="${forecast.high}">最高温度</p>
+					<p class="card-text" th:text="${forecast.low}">最低温度</p>
+					<p class="card-text" th:text="${forecast.fengxiang}">风向</p>
+					<p class="card-text" th:text="${forecast.type}">类型</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" th:src="@{/js/weather/report.js}"> </script>
+</html>

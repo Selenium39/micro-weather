@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-weather" />
+        <module name="micro-weather-city-client" />
+        <module name="micro-weather-client" />
+        <module name="micro-weather-collection-client" />
+        <module name="micro-weather-config-client" />
+        <module name="micro-weather-config-server" />
+        <module name="micro-weather-data-client" />
+        <module name="micro-weather-feign-client" />
+        <module name="micro-weather-hystrix-client" />
+        <module name="micro-weather-report-client" />
+        <module name="micro-weather-server" />
+        <module name="micro-weather-zuul-client" />
+        <module name="single-weather" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-weather" target="1.8" />
+      <module name="micro-weather-city-client" target="1.8" />
+      <module name="micro-weather-client" target="1.8" />
+      <module name="micro-weather-collection-client" target="1.8" />
+      <module name="micro-weather-config-client" target="1.8" />
+      <module name="micro-weather-config-server" target="1.8" />
+      <module name="micro-weather-data-client" target="1.8" />
+      <module name="micro-weather-feign-client" target="1.8" />
+      <module name="micro-weather-hystrix-client" target="1.8" />
+      <module name="micro-weather-report-client" target="1.8" />
+      <module name="micro-weather-server" target="1.8" />
+      <module name="micro-weather-zuul-client" target="1.8" />
+      <module name="single-weather" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="micro-weather" options="-parameters" />
+      <module name="micro-weather-city-client" options="-parameters" />
+      <module name="micro-weather-client" options="-parameters" />
+      <module name="micro-weather-collection-client" options="-parameters" />
+      <module name="micro-weather-config-client" options="-parameters" />
+      <module name="micro-weather-config-server" options="-parameters" />
+      <module name="micro-weather-data-client" options="-parameters" />
+      <module name="micro-weather-feign-client" options="-parameters" />
+      <module name="micro-weather-hystrix-client" options="-parameters" />
+      <module name="micro-weather-report-client" options="-parameters" />
+      <module name="micro-weather-server" options="-parameters" />
+      <module name="micro-weather-zuul-client" options="-parameters" />
+      <module name="single-weather" options="-parameters" />
+    </option>
+  </component>
+</project>
